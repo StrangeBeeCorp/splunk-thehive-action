@@ -1,0 +1,67 @@
+<form class="form-horizontal form-complex">
+  <div class="control-group">
+    <label class="control-label" for="thehive_url">URL <span class="required">*</span></label>
+    <div class="controls">
+      <input type="text" name="action.thehive.param.thehiveurl"
+        id="thehive_url" />
+      <span class="help-block">
+        The URL used to connect to TheHive UI
+      </span>
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="thehive_apikey">API key <span class="required">*</span></label>
+    <div class="controls">
+      <input type="text" name="action.thehive.param.thehiveapikey"
+        id="thehive_apikey" />
+      <span class="help-block">
+        TheHive API key 
+      </span>
+    </div>
+  </div>
+
+
+  <div class="control-group">
+    <label class="control-label" for="thehive_endpoint">Endpoint Name <span class="required">*</span></label>
+    <div class="controls">
+      <input type="text"
+        name="action.thehive.param.thehiveendpoint"
+        id="thehive_endpoint" />
+      <span class="help-block">
+        TheHive endpoint name (function name created in TheHive)
+      </span>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <label class="control-label" for="thehive_proxy">Proxy URL</label>
+    <div class="controls">
+      <input type="text" name="action.thehive.param.thehiveproxy"
+        id="thehive_proxy" />
+      <span class="help-block">
+        Proxy used to join TheHive (e.g. http://proxyaddress:port)
+      </span>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <label class="control-label"
+      for="thehive_disable_ssl_certificate">Disable SSL Certificate  </label>
+    <div class="controls">
+      <input type="checkbox" name="action.thehive.param.disable_ssl_certificate"
+        id="httpalert_disable_ssl_certificate" value="1" />
+    </div>
+  </div>
+
+  <div class="control-group">
+    <label class="control-label" for="thehive_customCA">Custom CA</label>
+    <div class="controls">
+      <textarea type="text" rows=8 name="action.thehive.param.thehivecustomca"
+        id="thehive_customCA" >
+    </textarea>
+      <span class="help-block">
+        Custom Certifiate authority (PEM format)
+      </span>
+    </div>
+  </div>
+</form>

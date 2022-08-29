@@ -1,0 +1,21 @@
+[app/ui]
+version = 9.0.0
+modtime = 1661705739.125738000
+
+[app/launcher]
+version = 9.0.0
+modtime = 1661705739.127090000
+
+[alert_actions/thehive_endpoint]
+access = read : [ * ], write : [ * ]
+export = none
+owner = nobody
+version = 9.0.0
+modtime = 1661709342.351853000
+
+[alert_actions/thehive]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 9.0.0
+modtime = 1661710197.547110000
