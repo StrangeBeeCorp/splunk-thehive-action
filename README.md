@@ -1,4 +1,4 @@
-# thehive-action
+# splunk-thehive-action
 
 This repository contains code intended for demonstration purposes only. This is a Proof of Concept (PoC). 
 
